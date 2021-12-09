@@ -1,0 +1,13 @@
+<h1>LISTADO CIUDADES</h1>
+<ul>
+    <li *ngFor="let ciudad of ciudades">
+        {{ciudad}}
+    </li>
+</ul>
+<p>Ciudades borradas:</p>
+<ul>
+    <li *ngFor="let ciudad of ciudadesBorradas">
+        {{ciudad}}
+    </li>
+</ul>
+<button (click)="borrarCiudad()" >Borrar ciudad</button>

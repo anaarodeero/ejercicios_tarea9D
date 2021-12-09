@@ -1,0 +1,8 @@
+<h1>LISTADO COMIDAS</h1>
+
+<ul>
+    <li *ngFor="let comida of comidas">
+        {{comida}}
+    </li>
+</ul>
+<button (click)="borrarComida()" >Borrar todas las comidas</button>
